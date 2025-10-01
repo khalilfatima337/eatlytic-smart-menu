@@ -8,20 +8,20 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Brand Colors - Health & Wellness Theme */
-    --primary: 158 64% 52%; /* Fresh Emerald Green */
+    /* Brand Colors - Modern Aesthetic Health Theme */
+    --primary: 152 38% 58%; /* Soft Sage Green */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 158 64% 65%;
-    --primary-dark: 158 64% 42%;
+    --primary-light: 152 38% 70%;
+    --primary-dark: 152 38% 45%;
 
-    --secondary: 199 89% 48%; /* Sky Blue */
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 20 75% 72%; /* Soft Peach/Coral */
+    --secondary-foreground: 0 0% 20%;
 
-    --accent: 24 100% 50%; /* Warm Orange for CTAs */
+    --accent: 265 55% 68%; /* Soft Lavender */
     --accent-foreground: 0 0% 100%;
 
     /* Neutral Palette */
-    --background: 0 0% 100%;
+    --background: 30 20% 98%; /* Warm cream white */
     --foreground: 210 10% 23%; /* Charcoal */
 
     --card: 0 0% 100%;
@@ -30,28 +30,29 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 10% 23%;
 
-    --muted: 210 20% 96%;
+    --muted: 30 15% 94%;
     --muted-foreground: 215 15% 50%;
 
-    --border: 210 20% 90%;
-    --input: 210 20% 90%;
-    --ring: 158 64% 52%;
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 152 38% 58%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(158 64% 52% / 0.95), hsl(199 89% 48% / 0.9));
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(158 64% 98%));
+    --gradient-hero: linear-gradient(135deg, hsl(152 38% 58% / 0.92), hsl(265 55% 68% / 0.88));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(152 38% 96%));
+    --gradient-accent: linear-gradient(135deg, hsl(20 75% 72%), hsl(265 55% 68%));
     
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1);
-    --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.1);
-    --shadow-primary: 0 10px 30px -10px hsl(158 64% 52% / 0.4);
+    --shadow-sm: 0 1px 3px 0 hsl(0 0% 0% / 0.08);
+    --shadow-md: 0 4px 8px -2px hsl(0 0% 0% / 0.12);
+    --shadow-lg: 0 12px 20px -5px hsl(0 0% 0% / 0.15);
+    --shadow-xl: 0 24px 32px -8px hsl(0 0% 0% / 0.18);
+    --shadow-primary: 0 12px 35px -12px hsl(152 38% 58% / 0.45);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
